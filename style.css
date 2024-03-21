@@ -1,0 +1,112 @@
+/* $$ Converter */
+html{
+    background-image: url("./img (1).jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+body{
+    
+    font-family: "Darker Grotesque", sans-serif;
+
+}
+h1{
+    color:rgb(11, 27, 89);
+
+}
+h2{
+    color:rgb(11, 27, 89);
+
+}
+form{
+    background-image: linear-gradient(to bottom right, #cdf8fe, #374A5A);
+    text-align: center  ;
+    max-width: 350px;
+    margin: auto;
+    margin-bottom: 50px;;
+ 
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.259);
+    margin-top: 50px;
+}
+#textBox{
+    width:140px;
+    text-align: center  ;
+    font-size: 1.5em;
+    border:2px solid rgba(94, 38, 38, 0.256);
+    border-radius:4px ;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.259);
+    background-color: rgb(214, 249, 247); ;
+}
+option{
+    width:100%;
+    font-size: 1em;
+    border:2px solid rgba(94, 38, 38, 0.256);
+    
+
+}
+select{
+    width:140px;
+    text-align: center  ;
+    font-size: 1.2em;
+    border:2px solid rgba(94, 38, 38, 0.256);
+    border-radius:4px ;
+    padding-bottom: 0px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.259);
+    background-color: rgb(228, 236, 239);
+    font-family: "Darker Grotesque", sans-serif;}
+label{
+font-size: 1.25em;
+font-weight: bold;    
+}
+button{
+    margin-top: 10px;
+    background-image: linear-gradient(to bottom right, #38A2D7, #561139);
+    border:none;
+    padding: 10px 15px;
+    cursor:pointer;
+    border-radius: 6px;
+    font-size: 1.5em    ;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.259);
+    color:white;
+    font-family: "Darker Grotesque", sans-serif;;
+}
+button:hover {
+    background-image: linear-gradient(to bottom right,  #cdf8fe, #374A5A);
+    
+   
+}
+#result{
+    font-size: 1.5em;
+    font-weight: bold;
+    color:rgb(228, 236, 239);
+}
+.result{
+    font-size: 1.75em;
+
+}
+
+.amountContainer, .fromContainer, .toContainer, .resultContainer {
+    display: flex;
+    align-items: center; /* Optional: align items vertically center */
+    justify-content:space-between;
+}
+
+
+
+.amountContainer span,
+.fromContainer span,
+.toContainer span
+
+ {
+display: inline-block; 
+  padding:2.5px 20px;
+  }
+  .resultContainer span{
+    display: inline-block; 
+    padding:2.5px 15px;
+  }
+
+
+    
+ 

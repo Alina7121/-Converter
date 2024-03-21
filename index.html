@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Amarante&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Amarante&family=Darker+Grotesque:wght@300..900&display=swap" rel="stylesheet">
+
+<title>Currency Conversion</title>
+</head>
+<body>
+   
+<form>
+    <h1>Currency Conversion</h1><br>
+
+    <div class="amountContainer">
+    <span> <h2>Amount:</h2></span>
+    <span> <input type="number" id="textBox" value="0">
+    </div>
+    <div class="fromContainer">
+        <span><h2>From:</h2></span>
+   <span> <select id="fromCurrency">
+        <option value="toUSDollar"> American Dollar</option>
+        <option value="toCADollar">Canadian Dollar</option>
+        <option value="toEUR">Euro</option>
+        <option value="toGBP">Pound Sterling</option>
+        <option value="toMXN">Mexican Peso</option>
+    </select></span>
+    </div>
+   <div class="toContainer"> 
+   <span> <h2>To:</h2></span>
+    <span> <select id="toCurrency">
+        <option value="toUSDollar">American Dollar</option>
+        <option value="toCADollar">Canadian Dollar</option>
+        <option value="toEUR">Euro</option>
+        <option value="toGBP">Pound Sterling</option>
+        <option value="toMXN">Mexican Peso</option>
+    </select></span>
+   </div>
+    <button type="button" onClick="convert()" id="convertButton">SUBMIT</button>
+    <div class="resultContainer">
+    <span><h2 class="result">Result:&nbsp;</h2></span><span><p id="result">❗Select a currency</p></span>
+    </div>
+</form>
+<script src="script.js"></script>
+</body>
+</html>
+
+
+
